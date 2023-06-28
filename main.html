@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="aqua" text="blue">
+    <h1 class="redarea">안녕하세요</h1>
+    <p class="redarea">반갑습니다</p>
+    <p id="adam">두번째 단락입니다.</p>
+    <button id="btn">클릭</button>
+    <script>
+        document.getElementById("btn").addEventListener("click", function(e){document.getElementById("adam").innerHTML="클릭"})
+    </script>
+    <style>
+        .redarea{
+            color : red;
+        }
+    </style>    
+</body>
+</html>
